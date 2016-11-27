@@ -39,4 +39,4 @@ for activity in data:
     lon = []
 
 filename = data_path + '.png'
-#plt.savefig(filename, facecolor = fig.get_facecolor(), bbox_inches='tight', pad_inches=0, dpi=300)
+plt.savefig(filename, facecolor = fig.get_facecolor(), bbox_inches='tight', pad_inches=0, dpi=300)
